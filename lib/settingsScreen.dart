@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatefulWidget {
+class SettingsScreen extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return HomeAppState();
+    return SettingsAppState();
   }
 }
 
-class HomeAppState extends State<HomeScreen> {
+class SettingsAppState extends State<SettingsScreen> {
   final Color bkgColor = Color.fromARGB(255, 101, 198, 241);
 
   @override
@@ -17,7 +17,7 @@ class HomeAppState extends State<HomeScreen> {
         color: bkgColor,
         child: Center(
           child: Text(
-            "Coming soon...",
+            "Settings",
             style: TextStyle(
               fontFamily: "Coolvetica",
               fontSize: 50.0,
@@ -27,7 +27,7 @@ class HomeAppState extends State<HomeScreen> {
             ),
           ),
         ),
-      ),
+      )
     );
   }
 }

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatefulWidget {
+class TabsScreen extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return HomeAppState();
+    return TabsAppState();
   }
 }
 
-class HomeAppState extends State<HomeScreen> {
+class TabsAppState extends State<TabsScreen> {
   final Color bkgColor = Color.fromARGB(255, 101, 198, 241);
 
   @override
@@ -17,7 +17,7 @@ class HomeAppState extends State<HomeScreen> {
         color: bkgColor,
         child: Center(
           child: Text(
-            "Coming soon...",
+            "Tabs",
             style: TextStyle(
               fontFamily: "Coolvetica",
               fontSize: 50.0,
@@ -27,7 +27,7 @@ class HomeAppState extends State<HomeScreen> {
             ),
           ),
         ),
-      ),
+      )
     );
   }
 }
